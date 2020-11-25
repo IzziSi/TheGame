@@ -258,6 +258,9 @@ public class Player {
         Player user = new Player();
         String message = "Type 'New' to create a new character or type your first and last name to log in.";
         beginGame.printToUser(userTextView,message);
+        //Scanner input = new Scanner(System.in);
+        //String userInput = input.next();
+        beginGame.printToUser(userTextView, "Find a way to capture user input.");
 
 //        if (playerInput.toLowerCase().equals("new")) {
 //            user.createPlayer();
@@ -273,4 +276,5 @@ public class Player {
 //            }
 //        }
     }
+
 }
